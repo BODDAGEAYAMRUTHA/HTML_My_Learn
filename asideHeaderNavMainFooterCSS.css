@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+}
+.mainSection{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 3rem 1fr 3rem;
+    height: 100vh;
+
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 0.1rem solid black;
+    padding: 0.3rem;
+    border-radius: 1.5rem;
+}
+header a:hover{
+    text-decoration: none;
+    color: rgb(5, 5, 6);
+    border: 0.1rem solid rgb(249, 246, 246);
+    background-color: rgb(2, 91, 91);
+    padding: 0.34rem;
+    border-radius: 1.5rem;
+}
+header{
+    grid-area: 'header';
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(7, 101, 101);
+    font-size: 20px;
+    color: aliceblue;
+}
+#p1{
+    margin-left: 1rem;
+}
+#p2{
+    margin-right: 1rem;
+}
+aside{
+    width: 5.9rem;
+    background: linear-gradient(135deg,rgb(7, 101, 101),rgb(240, 239, 239));
+    height: 100vh;
+    text-align: center;
+
+    
+}
+aside a{
+    display: block;
+    text-decoration: none;
+    margin: 20px 10px;
+    border: 0.09rem solid black;
+    color: rgb(2, 48, 48);
+    border-radius: 1rem;
+    font-size: large;
+    padding: 0.1rem;
+
+}
+img{
+    width: 5rem;
+    margin-top:0.5rem;
+}
+footer{
+    background: linear-gradient(180deg,rgb(253, 249, 249),rgb(7, 101, 101));
+}
+aside a:hover{
+    margin: 20.2px 10.2px;
+    border: 0.09rem solid rgb(249, 247, 247);
+    color: rgb(231, 244, 244);
+    background-color: rgb(5, 99, 99);
+    border-radius: 1rem;
+    font-size: large;
+    padding: 0.1rem;
+}
+
